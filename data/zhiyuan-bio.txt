@@ -1,0 +1,8 @@
+Zhiyuan Liang received the bachelor's degree in
+Internet of Things engineering from the Heifei University
+of Technology, Hefei, China, in 2020. She is
+currently working toward the master degree from the
+Beijing Institute of Technology, Beijing, China.
+Her research interests include computer vision,
+deep learning, and their applications on remote sensing
+image processing.
