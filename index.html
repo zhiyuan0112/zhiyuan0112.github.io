@@ -104,22 +104,22 @@
             </td>
           </tr> 
 
-          <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
+          <tr onmouseout="hsimaging_stop()" onmouseover="hsimaging_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='lssr_image'>
-                  <img src='images/hsimaging_before.png' width="160"></div>
-                <img src='images/hsimaging_after.png' width="160">
+                <div class="two" id='hsimaging_image'>
+                  <img src='images/hsimaging_after.png' width="160"></div>
+                <img src='images/hsimaging_before.png' width="160">
               </div>
               <script type="text/javascript">
-                function lssr_start() {
-                  document.getElementById('lssr_image').style.opacity = "1";
+                function hsimaging_start() {
+                  document.getElementById('hsimaging_image').style.opacity = "1";
                 }
 
-                function lssr_stop() {
-                  document.getElementById('lssr_image').style.opacity = "0";
+                function hsimaging_stop() {
+                  document.getElementById('hsimaging_image').style.opacity = "0";
                 }
-                lssr_stop()
+                hsimaging_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
@@ -131,7 +131,7 @@
               <br>
               <a href="https://github.com/ColinTaoZhang">Tao Zhang</a>,
               <strong>Zhiyuan Liang<strong>,
-                <a href="https://ying-fu.github.io/">Ying Fu</a>
+              <a href="https://ying-fu.github.io/">Ying Fu</a>
               <br>
               <em>IEEE JSTSP</em>, 2022  
               <br>
