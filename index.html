@@ -74,6 +74,49 @@
             <heading>Publications</heading>
             <tbody>
 
+              <tr onmouseout="tsbsr_stop()" onmouseover="tsbsr_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='tsbsr_image'>
+                      <img src='images/tsbsr_arch.png' width="160">
+                    </div>
+                    <img src='images/tsbsr_arch.png' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function tsbsr_start() {
+                      document.getElementById('tsbsr_image').style.opacity = "1";
+                    }
+
+                    function tsbsr_stop() {
+                      document.getElementById('tsbsr_image').style.opacity = "0";
+                    }
+                    tsbsr_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a>
+                    <papertitle>Blind Super-Resolution of Single Remotely Sensed Hyperspectral Image
+                    </papertitle>
+                    <br>
+                    <a href="https://ieeexplore.ieee.org/abstract/document/10231043">[pdf]</a>
+                    <!-- <a href="https://github.com/zhiyuan0112/Hyperspectral_Imaging">[code]</a> -->
+                  </a>
+                  <br>
+                  <strong>Zhiyuan Liang<strong>,
+                      <a>Shuai Wang</a>,
+                      <a href="https://github.com/ColinTaoZhang">Tao Zhang</a>,
+                      <a href="https://ying-fu.github.io/">Ying Fu</a>
+                      <br>
+                      <em>IEEE TGRS</em>, 2023
+                      <br>
+              
+                      <p></p>
+                      <p>
+                        Single Hyperspectral Blind Super-Resolution.
+                      </p>
+                </td>
+              </tr>
+
               <tr onmouseout="hsimaging_stop()" onmouseover="hsimaging_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
